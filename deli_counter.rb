@@ -12,7 +12,7 @@ def line(line)
 end
 
 def take_a_number(line, name)
-  line << name
+  line.push(name)
   num = line.size
   puts "Welcome, #{name}. You are number #{num} in line"
 end
