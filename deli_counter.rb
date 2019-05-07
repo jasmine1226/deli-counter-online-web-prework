@@ -8,8 +8,9 @@ def line(line)
   else
 
     puts "The line is currently:"
-    line.each_with_index do |name, num|
-      puts "#{}"
+    line.each_with_index do |name, index|
+      num = index + 1
+      puts "#{num}. #{name}"
     end
   end
 end
