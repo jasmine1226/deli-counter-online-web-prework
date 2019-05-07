@@ -9,6 +9,7 @@ def line(line)
     puts "The line is currently:"
     line.each_with_index do |name, index|
       num = index + 1
+      name = name.chomp
       puts " #{num}. #{name}"
     end
   end
