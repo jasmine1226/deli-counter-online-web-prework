@@ -8,6 +8,9 @@ def line(line)
   else
 
     puts "The line is currently:"
+    line.each_with_index do |num, name|
+      puts "#{}"
+    end
   end
 end
 
