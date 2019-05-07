@@ -6,7 +6,6 @@ def line(line)
   if line.size == 0
     puts "The line is currently empty."
   else
-
     puts "The line is currently:"
     line.each_with_index do |name, index|
       num = index + 1
