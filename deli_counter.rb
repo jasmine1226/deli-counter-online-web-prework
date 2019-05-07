@@ -13,6 +13,6 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-  num = line.size
+  num = line.length
   puts "Welcome, #{name}. You are number #{num} in line"
 end
