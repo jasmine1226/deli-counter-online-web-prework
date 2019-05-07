@@ -16,7 +16,6 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-  name = name.chomp
   num = line.length
   puts "Welcome, #{name}. You are number #{num} in line"
   return line
