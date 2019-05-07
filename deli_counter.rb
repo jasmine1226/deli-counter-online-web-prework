@@ -20,3 +20,6 @@ def take_a_number(line, name)
   puts "Welcome, #{name}. You are number #{num} in line"
   return line
 end
+
+array = ["Logan", "Avi", "Spencer"]
+line(array)
