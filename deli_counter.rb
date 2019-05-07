@@ -11,6 +11,7 @@ def line(line)
       num = index + 1
       print " #{num}. #{name}"
     end
+    print "\n"
   end
 end
 
